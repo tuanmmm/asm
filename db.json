@@ -1,0 +1,19 @@
+{
+    "products": [
+      {
+        "title": "Màn hình ASUS PG278Q 27 inch 144Hz",
+        "img": "https://res.cloudinary.com/dkhutgvlb/image/upload/v1644467804/banner1_cxqs3q.jpg",
+        "price": "500.000",
+        "id": "1"
+      },
+      {
+        "title": "MSI Announces GeForce GTX 770",
+        "img": "https://res.cloudinary.com/dkhutgvlb/image/upload/v1644491318/sp2_aaek8z.jpg",
+        "price": "3.500.000",
+        "id": "2"
+      }
+    ],
+    "users": [
+      
+    ]
+}
