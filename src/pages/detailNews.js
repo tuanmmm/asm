@@ -1,4 +1,4 @@
-import { get } from "../api/posts";
+import { get } from "../api/product";
 import Header from "../components/header";
 const DetailNewsPage = {
     async render(id) {

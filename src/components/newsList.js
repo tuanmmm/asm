@@ -1,11 +1,11 @@
-import { getAll } from "../api/posts";
+import { getAll } from "../api/product";
 const NewsList = {
     async render (){
         const { data } = await getAll();
         return /* html */ `
         <div class=" w-[1400px] mx-auto">
-        <div class="border- rounded-[30px]">
-                <h2 class="text-2xl font-semibold uppercase my-4 ">Sản Phẩm</h2>
+        <div class="border-2  border-b-indigo-300 mt-[30px] mb-[30px]  rounded-[30px]">
+                <h2 class="pl-[30px] text-2xl font-semibold uppercase my-4 ">Sản Phẩm</h2>
         </div>     
         <div class="grid grid-cols-3 gap-8">
         ${data.map((product) => `
