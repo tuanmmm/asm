@@ -1,24 +1,60 @@
 {
   "products": [
     {
-      "title": "Màn hình ASUS PG278Q 27 inch 144Hz",
-      "img": "https://res.cloudinary.com/dkhutgvlb/image/upload/v1644467804/banner1_cxqs3q.jpg",
-      "price": "500.000",
-      "id": "1"
+      "id": "2",
+      "title": "MSI Announces GeForce GTX 770",
+      "img": "http://res.cloudinary.com/asm-acma-06/image/upload/v1645197978/ao-khoac-nam-kaki-tui-xeo-phong-cach-han-quoc-943-1_eetviq.jpg",
+      "price": "666666"
     },
     {
       "title": "MSI Announces GeForce GTX 770",
-      "img": "https://res.cloudinary.com/dkhutgvlb/image/upload/v1644491318/sp2_aaek8z.jpg",
+      "img": "https://res.cloudinary.com/asm-acma-06/image/upload/v1644991448/ao-khoac-nam-kaki-tui-xeo-phong-cach-han-quoc-943-1_ongo6i.jpg",
       "price": "3.500.000",
       "id": "2"
+    },
+    {
+      "id": "J0LuwmO",
+      "title": "MSI Announces GeForce GTX 770",
+      "img": "http://res.cloudinary.com/asm-acma-06/image/upload/v1645196583/ao-khoac-kaki-nam-cao-cap-co-non-chong-nang-tui-hop-nhieu-mau-thoi-trang-944-1_wchlcu.jpg",
+      "price": "32423"
+    },
+    {
+      "title": "MSI Announces GeForce GTX 770",
+      "img": "http://res.cloudinary.com/asm-acma-06/image/upload/v1645198674/ao-khoac-kaki-nam-cao-cap-co-non-chong-nang-tui-hop-nhieu-mau-thoi-trang-944-1_mmxiks.jpg",
+      "price": "4.000000",
+      "id": "q13xEgm"
+    },
+    {
+      "title": "MSI Announces GeForce GTX 770",
+      "img": "http://res.cloudinary.com/asm-acma-06/image/upload/v1645198675/ao-khoac-kaki-nam-cao-cap-co-non-chong-nang-tui-hop-nhieu-mau-thoi-trang-944-1_hu6hhh.jpg",
+      "price": "4.000000",
+      "id": "s1JH6AA"
+    },
+    {
+      "title": "MSI Announces GeForce GTX 770",
+      "img": "http://res.cloudinary.com/asm-acma-06/image/upload/v1645198675/ao-khoac-kaki-nam-cao-cap-co-non-chong-nang-tui-hop-nhieu-mau-thoi-trang-944-1_zxlken.jpg",
+      "price": "4.000000",
+      "id": "ouJ-S64"
+    },
+    {
+      "title": "MSI Announces GeForce GTX 770",
+      "img": "http://res.cloudinary.com/asm-acma-06/image/upload/v1645198676/ao-khoac-kaki-nam-cao-cap-co-non-chong-nang-tui-hop-nhieu-mau-thoi-trang-944-1_vofaoi.jpg",
+      "price": "4.000000",
+      "id": "EBSyQ9Q"
     }
   ],
   "users": [
     {
-      "email": "tuanntph15348@fpt.edu.vn",
-      "password": "$2a$10$T7kA4NblycJ0X7HXsza/iOWnkJdmfLgLs8Lhx0aM4e54z3C2L9nju",
+      "email": "nguyenthetuan100902@gmail.com",
+      "password": "$2a$10$gM1KwOHhrpTHKejfi4Ucu.RMTA4bLCie5niEZnUHaSwkDsf8eHYv2",
       "username": "tuannt",
       "id": 1
+    },
+    {
+      "email": "tuanntph15348@fpt.edu.vn",
+      "password": "$2a$10$Slr86ackivfJ4EKB7bVV9OFk/PXfy3elGOsp.JsqpD1y7fd7qptd.",
+      "username": "tuannt",
+      "id": 2
     }
   ]
 }
