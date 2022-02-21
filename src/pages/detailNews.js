@@ -11,6 +11,9 @@ const DetailNewsPage = {
                         ${Header.render()}
                        ${Banner.render()} 
                 </div>
+                <div class="border-2  mt-[30px] mb-[30px]  rounded-[30px] bg-indigo-500">
+                        <h2 class="text-center pl-[30px] text-2xl font-semibold uppercase my-4 ">chi tiết sản phẩm</h2>
+               </div>     
                 <div class="w-[1200px] mx-auto grid grid-cols-2 my-[50px] bg-white rounded-[10px]"> 
                     <div class="m-[20px]">
                         <img src="${data.img}" alt="">
