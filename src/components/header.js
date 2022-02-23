@@ -13,18 +13,31 @@ const Header = {
           </ul>
           <ul class=" flex text-lg ">
             <li class="pr-3 pl-3"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-            <li class="pr-3 pl-3"><a href="#"><i class="fa-solid fa-circle-user"></i></a></li>
+            <li id="sign" class="pr-3 pl-3"><a href="#"><i class="fa-solid fa-circle-user"></i></a></li>
             <li class="pr-3 pl-3"><a href=""><i class="fa-solid fa-heart"></i></a></li>
             <li class="pr-3 pl-3"><a href="/cart"><i class="fa-solid fa-cart-shopping"></i></a></li>
           </ul>
           <div class="mr-[100px]">
-          <a href="/signup"><button class="border p-[5px] font-bold  bg-[#5e6df7] text-white text-[17px] hover:bg-[#027bc6]">Đăng kí</button></a>
-          <a href="/signin"><button class="border p-[5px] font-bold   bg-[#5e6df7] text-white text-[17px] hover:bg-[#027bc6]">Đăng nhập</button></a>
+          <a class="abcd" href="/signup"><button class="border p-[5px] font-bold  bg-[#5e6df7] text-white text-[17px] hover:bg-[#027bc6]">Đăng kí</button></a>
+          <a class="abcd" href="/signin"><button class="border p-[5px] font-bold   bg-[#5e6df7] text-white text-[17px] hover:bg-[#027bc6]">Đăng nhập</button></a>
         </div>
         </nav>
       </header>
       
         `;
     },
+    afterRender(){
+        function icon (){
+          if(localStorage.getItem("user")){
+            const email = JSON.parse(localStorage.getItem("user")).email
+            document.querySelector("#sign").innerHTML = `Hello ${email}`
+            document.querySelectorAll(".abcd").forEach((Element)=>{
+              Element.classList.add("hidden")
+            })
+          }
+        };
+        icon()
+    },
+      
 };
 export default Header;

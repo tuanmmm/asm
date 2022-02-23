@@ -39,21 +39,9 @@
   ],
   "users": [
     {
-      "email": "nguyenthetuan100902@gmail.com",
-      "password": "$2a$10$gM1KwOHhrpTHKejfi4Ucu.RMTA4bLCie5niEZnUHaSwkDsf8eHYv2",
-      "username": "tuannt",
-      "id": 3
-    },
-    {
       "email": "tuanntph15348@fpt.edu.vn",
-      "password": "$2a$10$aBcvihvzwrbynRJFRiRO6eqowp.LYPuZ/Z3Msjy9aDnmoywUmGLgy",
-      "username": "yrretry",
-      "id": 2
-    },
-    {
-      "email": "rtt3t@gmail.com.vn",
-      "password": "$2a$10$AGnU5PfXRZYsoqQMfY9YSux9fpAQLDej5gz6GLvaqmdzJnuiwc//.",
-      "username": "ninh2k",
+      "password": "$2a$10$Uvw/RxPhzho60KylLQLINuiZIOp9qN.e8JQ5giVlryCik0ea0HrPq",
+      "username": "tuannt",
       "id": 1
     }
   ]

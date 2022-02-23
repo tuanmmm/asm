@@ -67,7 +67,7 @@ const Signin = {
                         if(data.user.id === 1) {
                             document.location.href="/"
                         } else {
-                            document.location.href="#/signin"
+                            document.location.href="#/admin"
                         }
                     }, 2000);
                 }

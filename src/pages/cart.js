@@ -61,7 +61,7 @@ const CartPage = {
             <div class="font-bold">Tổng số lượng</div>
           </td>
           <td class="p-4 px-6 font-extrabold text-center whitespace-nowrap">
-            Tổng tiền
+            Tổng tiền <span id="total"></span>
           </td>
           
         </tr>
@@ -117,7 +117,25 @@ const CartPage = {
                     })
                 }
             })
-        })
+        });
+
+        function start(){
+          total();
+        }
+
+        start();
+
+        function total () {
+          if (localStorage.getItem("cart")) {
+            const cart = JSON.parse(localStorage.getItem("cart"));
+             const result = cart.reduce((a,b)=>{
+              console.log(a + Number.parseInt(b.price) * Number.parseInt(b.quantity));
+              return a + Number.parseInt(b.price) * Number.parseInt(b.quantity);
+            },0)
+            document.querySelector("#total").innerHTML = result;
+
+          }
+        }
     }
 }
 export default CartPage;

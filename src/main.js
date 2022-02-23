@@ -9,6 +9,7 @@ import Addsp from "./pages/admin/news/addsp";
 import Editsp from "./pages/admin/news/edit";
 import Signin from "./pages/signin";
 import CartPage from "./pages/cart";
+import AdminUser from "./pages/admin/user/index.js";
 const router = new Navigo("/", {linksSelector: "a"});
 
 const print = async (content,id) => {
@@ -24,6 +25,7 @@ router.on({
    "/admin/news": () => print(AdminNewsPage),
    "/admin/news/addsp": () => print(Addsp),
    "/admin/news/:id/edit": ({data}) => print(Editsp, data.id),
+   "/admin/user": () => print(AdminUser),
    "/cart": () => print(CartPage),
 });
 router.resolve();
